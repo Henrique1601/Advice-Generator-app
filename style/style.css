@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(218, 23%, 16%);
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+section {
+  display: block;
+  margin-top: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 1px 1px 20px  5px hsl(150, 100%, 66%);
+  border-radius: 15px;
+  width: 500px;
+  height: 270px;
+  border-radius: px;
+  background-color: hsl(217, 19%, 24%);
+}
+
+h1 {
+  display: block;
+  color: hsl(150, 100%, 66%);
+  padding: 20px;
+  font-size: 20px;
+}
+p {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  height: 140px;
+  width: 350px;
+  font-size: 22px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+}
+.dice {
+ 
+}
+button{
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  padding: 18px 20px;
+  border-radius: 30px;
+  border: 0px solid ;
+  background: #00EE30;
+}
+
+button:hover {
+  box-shadow: 1px 1px 15px 1px #ffffff;
+  background: #15ff00;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  position: relative;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+  font-style: oblique;
+}
+
